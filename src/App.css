@@ -1,0 +1,72 @@
+
+ body{
+    overflow: hidden;
+margin: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/007/160/635/small_2x/abstract-3d-design-background-with-technology-dot-and-line-circuit-board-texture-modern-engineering-futuristic-science-communication-concept-illustration-free-vector.jpg');
+ }
+.mainn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #433f3f30;
+    box-sizing: border-box;  
+    max-width: max-content;
+    max-height: 50%;
+    margin :40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+  
+}
+
+.qr{
+  margin-top:10px;
+    border-radius: 8px;
+}
+
+#qr-code-value{
+    margin:0px 50px;
+    cursor:crosshair;
+    height: 250px;
+    width:250px;
+}
+*{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+input {
+    margin : 10px 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+  
+    
+}
+
+.inputqr{
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+margin-bottom: 15px;
+}
+button{
+    font-size: 15px;  
+    width: 30%;  
+margin: 0 auto;
+padding:10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px grey;
+    background-color: rgba(76, 75, 74, 0.438);
+    
+    border-radius: 5px;
+
+}
+button:active{
+transform:rotate3d(0,0,1,2deg);
+}
