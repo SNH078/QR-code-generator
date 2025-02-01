@@ -1,4 +1,3 @@
-QR-code-generator
 
 Clone the Repository 
 
